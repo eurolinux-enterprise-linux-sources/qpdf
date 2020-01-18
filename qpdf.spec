@@ -1,7 +1,7 @@
 Summary: Command-line tools and library for transforming PDF files
 Name:    qpdf
 Version: 5.0.1
-Release: 3%{?dist}
+Release: 1%{?dist}
 # MIT: e.g. libqpdf/sha2.c
 License: Artistic 2.0 and MIT
 Group:   System Environment/Base
@@ -112,12 +112,6 @@ make check
 %doc __doc/*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 5.0.1-3
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 5.0.1-2
-- Mass rebuild 2013-12-27
-
 * Tue Oct 29 2013 Jiri Popelka <jpopelka@redhat.com> - 5.0.1-1
 - 5.0.1 - security-hardening release (#1021493)
 
